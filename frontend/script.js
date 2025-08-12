@@ -5,7 +5,7 @@ const API_URL = '/api';
 let currentSessionId = null;
 
 // DOM elements
-let chatMessages, chatInput, sendButton, totalCourses, courseTitles, newChatButton, themeToggle;
+let chatMessages, chatInput, sendButton, totalCourses, courseTitles, newChatButton, themeToggle, themeIcon;
 
 // Initialize
 document.addEventListener('DOMContentLoaded', () => {
@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     courseTitles = document.getElementById('courseTitles');
     newChatButton = document.getElementById('newChatButton');
     themeToggle = document.getElementById('themeToggle');
+    themeIcon = document.getElementById('themeIcon');
     
     setupEventListeners();
     initializeTheme();
@@ -254,34 +255,30 @@ async function loadCourseStats() {
 function initializeTheme() {
     // Check for saved theme preference or default to dark theme
     const savedTheme = localStorage.getItem('theme') || 'dark';
-    applyTheme(savedTheme);
+    setTheme(savedTheme);
 }
 
 function toggleTheme() {
     const currentTheme = document.documentElement.getAttribute('data-theme') || 'dark';
     const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    applyTheme(newTheme);
-    
-    // Save theme preference
+    setTheme(newTheme);
     localStorage.setItem('theme', newTheme);
-    
-    // Update button aria-label for accessibility
-    const isLight = newTheme === 'light';
-    themeToggle.setAttribute('aria-label', isLight ? 'Switch to dark theme' : 'Switch to light theme');
-    themeToggle.setAttribute('title', isLight ? 'Switch to dark theme' : 'Switch to light theme');
 }
 
-function applyTheme(theme) {
+function setTheme(theme) {
     if (theme === 'light') {
         document.documentElement.setAttribute('data-theme', 'light');
+        if (themeIcon) themeIcon.textContent = '☀️';
+        if (themeToggle) {
+            themeToggle.setAttribute('aria-label', 'Switch to dark theme');
+            themeToggle.setAttribute('title', 'Switch to dark theme');
+        }
     } else {
         document.documentElement.removeAttribute('data-theme');
-    }
-    
-    // Update button aria-label for accessibility
-    const isLight = theme === 'light';
-    if (themeToggle) {
-        themeToggle.setAttribute('aria-label', isLight ? 'Switch to dark theme' : 'Switch to light theme');
-        themeToggle.setAttribute('title', isLight ? 'Switch to dark theme' : 'Switch to light theme');
+        if (themeIcon) themeIcon.textContent = '🌙';
+        if (themeToggle) {
+            themeToggle.setAttribute('aria-label', 'Switch to light theme');
+            themeToggle.setAttribute('title', 'Switch to light theme');
+        }
     }
 }
