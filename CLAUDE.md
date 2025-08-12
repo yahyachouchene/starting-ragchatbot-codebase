@@ -25,6 +25,27 @@ uv add package-name
 rm -rf backend/chroma_db
 ```
 
+### Code Quality Tools
+```bash
+# Format code with Black and sort imports with isort
+./scripts/format.sh
+
+# Run linting checks (flake8, import sorting, formatting)
+./scripts/lint.sh
+
+# Run type checking with mypy
+./scripts/typecheck.sh
+
+# Run all quality checks
+./scripts/quality-check.sh
+
+# Manual commands (if needed)
+uv run black .              # Format code
+uv run isort .              # Sort imports
+uv run flake8 .             # Lint code
+uv run mypy backend/        # Type check
+```
+
 ### Environment Setup
 Create `.env` file in root with:
 ```
