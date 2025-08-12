@@ -1,0 +1,137 @@
+INFO:     Will watch for changes in these directories: ['/home/yahya/Dev/Deeplearning.ai/starting-ragchatbot-codebase/backend']
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+INFO:     Started reloader process [75868] using WatchFiles
+INFO:     Started server process [75879]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Loading initial documents...
+Course already exists: MCP: Build Rich-Context AI Apps with Anthropic - skipping
+Course already exists: Advanced Retrieval for AI with Chroma - skipping
+Course already exists: Prompt Compression and Query Optimization - skipping
+Course already exists: Building Towards Computer Use with Anthropic - skipping
+Loaded 0 courses with 0 chunks
+INFO:     127.0.0.1:40492 - "GET / HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:40492 - "GET /api/courses HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40492 - "POST /api/query HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:40008 - "GET / HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:40008 - "GET /api/courses HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40008 - "POST /api/query HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41944 - "POST /api/query HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'search_tools.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [75879]
+INFO:     Started server process [96674]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Loading initial documents...
+Course already exists: MCP: Build Rich-Context AI Apps with Anthropic - skipping
+Course already exists: Advanced Retrieval for AI with Chroma - skipping
+Course already exists: Prompt Compression and Query Optimization - skipping
+Course already exists: Building Towards Computer Use with Anthropic - skipping
+Loaded 0 courses with 0 chunks
+INFO:     127.0.0.1:44300 - "GET / HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:44300 - "GET /api/courses HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44304 - "POST /api/query HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:44304 - "GET / HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:44304 - "GET /api/courses HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54810 - "POST /api/query HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:55038 - "POST /api/query HTTP/1.1" 500 Internal Server Error
+WARNING:  WatchFiles detected changes in 'app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [96674]
+WARNING:  WatchFiles detected changes in 'app.py'. Reloading...
+INFO:     Started server process [97595]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Started server process [97709]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Loading initial documents...
+Course already exists: MCP: Build Rich-Context AI Apps with Anthropic - skipping
+Course already exists: Advanced Retrieval for AI with Chroma - skipping
+Course already exists: Prompt Compression and Query Optimization - skipping
+Course already exists: Building Towards Computer Use with Anthropic - skipping
+Loaded 0 courses with 0 chunks
+INFO:     127.0.0.1:45406 - "POST /api/query HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58374 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50986 - "GET / HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:50986 - "GET /api/courses HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50992 - "POST /api/query HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41474 - "POST /api/query HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49890 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49890 - "GET /script.js?v=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49890 - "GET /api/courses HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49890 - "POST /api/query HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53598 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53598 - "GET /style.css?v=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53608 - "GET /script.js?v=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53608 - "GET /api/courses HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53616 - "POST /api/query HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54942 - "GET / HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:54942 - "GET /style.css?v=10 HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:54956 - "GET /script.js?v=10 HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:54956 - "GET /api/courses HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52058 - "POST /api/query HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42652 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42652 - "GET /style.css?v=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42660 - "GET /script.js?v=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42652 - "GET /api/courses HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42652 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41360 - "POST /api/query HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [97709]
+INFO:     Started server process [223070]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Loading initial documents...
+Course already exists: MCP: Build Rich-Context AI Apps with Anthropic - skipping
+Course already exists: Advanced Retrieval for AI with Chroma - skipping
+Course already exists: Prompt Compression and Query Optimization - skipping
+Course already exists: Building Towards Computer Use with Anthropic - skipping
+Loaded 0 courses with 0 chunks
+INFO:     127.0.0.1:48338 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51116 - "GET /api/courses HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46528 - "DELETE /api/sessions/test_session/clear HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59272 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52532 - "POST /api/query HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52440 - "DELETE /api/sessions/session_1/clear HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39488 - "GET /script.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50034 - "GET /style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60724 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60724 - "GET /style.css?v=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60730 - "GET /script.js?v=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60730 - "GET /api/courses HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52380 - "POST /api/query HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46246 - "DELETE /api/sessions/session_2/clear HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34382 - "POST /api/query HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54270 - "GET / HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:54280 - "GET /script.js?v=10 HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:54270 - "GET /style.css?v=10 HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:54270 - "GET /api/courses HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54270 - "GET / HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:54270 - "GET /api/courses HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57946 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57946 - "GET /style.css?v=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57950 - "GET /script.js?v=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57964 - "GET /api/courses HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57964 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45084 - "GET /api/courses HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45094 - "GET / HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:45094 - "GET /api/courses HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52816 - "GET /api/courses HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58442 - "GET /api/courses HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58448 - "GET /api/courses HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [223070]
+INFO:     Stopping reloader process [75868]
+/home/yahya/.local/share/uv/python/cpython-3.13.6-linux-x86_64-gnu/lib/python3.13/multiprocessing/resource_tracker.py:301: UserWarning: resource_tracker: There appear to be 4 leaked semaphore objects to clean up at shutdown: {'/loky-223070-nim9t13n', '/loky-97709-ss3z67tq', '/loky-96674-0v05gyxw', '/loky-75879-74khgp70'}
+  warnings.warn(
