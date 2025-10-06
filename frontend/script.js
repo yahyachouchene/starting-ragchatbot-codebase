@@ -5,7 +5,7 @@ const API_URL = '/api';
 let currentSessionId = null;
 
 // DOM elements
-let chatMessages, chatInput, sendButton, totalCourses, courseTitles, newChatButton, themeToggle, themeIcon;
+let chatMessages, chatInput, sendButton, totalCourses, courseTitles, newChatButton, themeToggle;
 
 // Initialize
 document.addEventListener('DOMContentLoaded', () => {
@@ -17,7 +17,6 @@ document.addEventListener('DOMContentLoaded', () => {
     courseTitles = document.getElementById('courseTitles');
     newChatButton = document.getElementById('newChatButton');
     themeToggle = document.getElementById('themeToggle');
-    themeIcon = document.getElementById('themeIcon');
     
     setupEventListeners();
     initializeTheme();
@@ -268,14 +267,12 @@ function toggleTheme() {
 function setTheme(theme) {
     if (theme === 'light') {
         document.documentElement.setAttribute('data-theme', 'light');
-        if (themeIcon) themeIcon.textContent = '☀️';
         if (themeToggle) {
             themeToggle.setAttribute('aria-label', 'Switch to dark theme');
             themeToggle.setAttribute('title', 'Switch to dark theme');
         }
     } else {
         document.documentElement.removeAttribute('data-theme');
-        if (themeIcon) themeIcon.textContent = '🌙';
         if (themeToggle) {
             themeToggle.setAttribute('aria-label', 'Switch to light theme');
             themeToggle.setAttribute('title', 'Switch to light theme');
